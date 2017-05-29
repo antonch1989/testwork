@@ -1,6 +1,11 @@
 testwork
 ========
 
+<h1>Answers the questions in "Test work backend" part.</h1>
+
+<p>There is a little test sample (PatientControllerTest). This is functional test making request to /patient/ page and expecting to receive 200 status code.</p>
+<p>Most of the times I used FOSUserBundle for registration and authentication. It's pretty good when standard registration is required, it's also pretty easy to customize. I have experience in creating Symfony based authentication mechanism from scratch also.</p>
+
 <h1>Answers to "OUR QUESTIONS PART"</h1>
 
 <p><b>How would you build a reference?</b></p>
