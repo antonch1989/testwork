@@ -3,10 +3,10 @@ server {
     root {{ doc_root }};
 
     location / {
-        try_files $uri /index.php$is_args$args;
+        try_files $uri /app_dev.php$is_args$args;
     }
 
-    location ~ ^/index\.php(/|$) {
+    location ~ ^/app_dev\.php(/|$) {
         fastcgi_pass unix:/var/run/php/php{{ php_version }}-fpm.sock;
         fastcgi_split_path_info ^(.+\.php)(/.*)$;
         include fastcgi_params;
